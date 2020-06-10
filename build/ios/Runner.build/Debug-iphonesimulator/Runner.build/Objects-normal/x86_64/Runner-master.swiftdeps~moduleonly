@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+options: "42a97ad3e56def3aac759835bd61ed1a"
+build_time: [1589986006, 233885000]
+inputs:
+  "/Users/suesi/Documents/demo/localisation_demo/localisation_demo/ios/Runner/AppDelegate.swift": [1568414077, 835767894]
