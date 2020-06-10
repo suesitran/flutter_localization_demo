@@ -1,4 +1,4 @@
-# localisationdemo
+# Localisation Demo
 
 A simple app to demonstrate how Localization works in Flutter
 
