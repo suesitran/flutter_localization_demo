@@ -183,6 +183,20 @@ class MyAppLocalisation {
       args: [toys, name, age],
     );
   }
+
+  String complexStringSample(Object toys, Object origin, Object name) {
+    return Intl.select(
+      toys,
+      {
+        'cars': '$name from $origin loves to play racing cars',
+        'dolls': '$name from $origin loves to play dolls',
+        'other': 'I have no idea',
+      },
+      name: 'complexStringSample',
+      desc: '',
+      args: [toys, origin, name],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<MyAppLocalisation> {

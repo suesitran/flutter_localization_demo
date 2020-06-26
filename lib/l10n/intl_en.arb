@@ -14,5 +14,13 @@
   "pluralStringDemoTitle": "Plural String Demo",
   "youHavePressThisButtonManyTimes": "{counter, plural, zero {You have not clicked the button yet} one {You have clicked the button 1 time} other {You have clicked the button {counter} times}}",
   "complexStringDemoTitle" : "Complex String Demo",
-  "summaryAboutYou": "{toys, select, cars {Your name is {name}, {age} years old, and you love to play racing cars} dolls {Your name is {name}, and you are {age} years old, and you love to dress up dolls} other {You are {name}, {age} years old}}"
+  "summaryAboutYou": "{toys, select, cars {Your name is {name}, {age} years old, and you love to play racing cars} dolls {Your name is {name}, and you are {age} years old, and you love to dress up dolls} other {You are {name}, {age} years old}}",
+  "complexStringSample": "{toys, select, cars {{name} from {origin} loves to play racing cars} dolls {{name} from {origin} loves to play dolls} other {I have no idea}}",
+  "@complexStringSample": {
+    "placeholders": {
+      "toys": {},
+      "origin": {},
+      "name": {}
+    }
+  }
 }
